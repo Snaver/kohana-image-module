@@ -11,8 +11,8 @@ Supports file types jpg, png, gif (input and output). Parameters are passed encr
 Image handling
 ------
 * If source image is smaller, will center image (x & y) on transparent canvas, HOWEVER there are a few rules..  
-** If width AND height provided the resulting image (canvas) will be those exact dimensions  
-** If only one dimension is given, resulting image will only be centered along that axis  
+..* If width AND height provided the resulting image (canvas) will be those exact dimensions  
+..* If only one dimension is given, resulting image will only be centered along that axis  
 * If only width is given, image will be resized using correct aspect  
 * If only height is given, image will be resized using correct aspect  
 
